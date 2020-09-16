@@ -1,0 +1,13 @@
+
+.images {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* border: 1px solid red; */
+}
+.images img {
+  width: 500px;
+  margin-bottom: 20px;
+}
