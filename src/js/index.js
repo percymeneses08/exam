@@ -10,7 +10,7 @@ function getMathImages(numImages, directory, maxNumber) {
 
   for (let i = 0; images.length != numImages; i++) {
     const randomNumber = getRandomInt(1, maxNumber + 1)
-    const urlImage = `./images/arithmetic/${directory}/question_${randomNumber}.jpg`
+    const urlImage = `./images/math/arithmetic/${directory}/question_${randomNumber}.jpg`
     if (images.includes(urlImage)) {
       continue
     }
